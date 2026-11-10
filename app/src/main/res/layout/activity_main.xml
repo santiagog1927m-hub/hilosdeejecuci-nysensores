@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menú Principal con los 28 Ejercicios del SENA -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guía de Ejercicios - SENA ADSO"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button android:id="@+id/btnEx1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 1: Hilo Contador 1 a 10" />
+        <Button android:id="@+id/btnEx2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 2: Carga Progresiva (ProgressBar)" />
+        <Button android:id="@+id/btnEx3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 3: Tres Hilos Simultáneos" />
+        <Button android:id="@+id/btnEx4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 4: MiTarea (Suma N números)" />
+        <Button android:id="@+id/btnEx5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 5: Corrutina 5 Segundos" />
+        <Button android:id="@+id/btnEx6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 6: Sensor Simulado con Corrutina" />
+        <Button android:id="@+id/btnEx7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 7: Eventos Táctiles (Down, Move, Up)" />
+        <Button android:id="@+id/btnEx8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 8: Coordenadas X e Y del Toque" />
+        <Button android:id="@+id/btnEx9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 9: Vista Personalizada Cambia Color" />
+        <Button android:id="@+id/btnEx10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 10: Arrastrar Pelota libremente" />
+        <Button android:id="@+id/btnEx11" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 11: Dibujar Trazos en Pantalla" />
+        <Button android:id="@+id/btnEx12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 12: GestureDetector (Tap, Long Press, Fling)" />
+        <Button android:id="@+id/btnEx13" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 13: Multi-touch Posición y Cantidad Dedos" />
+        <Button android:id="@+id/btnEx14" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 14: Dibujo Multitáctil con Colores" />
+        <Button android:id="@+id/btnEx15" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 15: Pinch to Zoom en ImageView" />
+        <Button android:id="@+id/btnEx16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 16: Rotación de Vista con 2 Dedos" />
+        <Button android:id="@+id/btnEx17" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 17: Puntos Multitáctiles Temporales" />
+        <Button android:id="@+id/btnEx18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 18: Control Total Imagen (Drag, Pinch, Rotate)" />
+        <Button android:id="@+id/btnEx19" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 19: Sensor de Proximidad (Rojo/Verde)" />
+        <Button android:id="@+id/btnEx20" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 20: Sensor de Luz (Lux)" />
+        <Button android:id="@+id/btnEx21" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 21: Orientación (Azimut, Pitch, Roll)" />
+        <Button android:id="@+id/btnEx22" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 22: Brújula Magnética" />
+        <Button android:id="@+id/btnEx23" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 23: Mover Círculo Inclinando Dispositivo" />
+        <Button android:id="@+id/btnEx24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 24: Contador de Pasos" />
+        <Button android:id="@+id/btnEx25" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 25: Proximidad + Luz Combinados" />
+        <Button android:id="@+id/btnEx26" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 26: Detector de Agitar (Shake)" />
+        <Button android:id="@+id/btnEx27" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 27: Posición del Dispositivo" />
+        <Button android:id="@+id/btnEx28" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 28: Registro de Sensores en RecyclerView" />
+
+    </LinearLayout>
+
+</ScrollView>
